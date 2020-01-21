@@ -67,6 +67,7 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 .container1 .logo{
 	display: inline-block;
 	position: relative;
@@ -641,12 +642,15 @@ body{
 	}
 }
 @media(max-width:550px){
-	.container2 .cards div{
+	.container2 .cards div {
 		width: 100%;
 }
-.container4 .gallery div{
-	width: 75%;
+	.container4 .gallery div {
+		width: 75%;
 }
+	.container2 .cards .svg3 {
+		margin-bottom: 4vh;
+	}
 }
 @media(max-width:425px){
 	.container4 .gallery div{
@@ -660,8 +664,8 @@ body{
 	.container1 .descr{
 		padding-top: 3vh;
 	}
-	.container1 .btn{
-		margin-top: 8vh;
+	.container1 .btn {
+		margin-top: 100vh;
 	}
 }
 
@@ -669,6 +673,7 @@ body{
 	.container5 .redblock {
 		width: 100%;
 		margin: 0 auto;
+		padding-top: 8vh;
 	}
 }
 
@@ -684,8 +689,25 @@ body{
 	.container5 .redblock {
 		width: 50%;
 		margin: 0 auto;
-		padding-left: 70px;
+		padding-left: 150px;
 	}		
+}
+
+@media(max-width: 400px) {
+	.container5 .redblock {
+		text-align: center;
+		width: 48%;
+		max-height: 100px;
+	}
+}
+
+@media(max-width: 370px) {
+	.container5 .redblock {
+		margin-bottom: 50vh;
+		width: 65%;
+		margin-right: 70vh;
+		vertical-align: middle;
+	}
 }
 
 @media(max-width: 1200px) {
@@ -711,5 +733,20 @@ body{
 	.container6 .gallery2 div {
 		width: 80%;
 		margin-top: 10%;
+	}
+}
+
+@media(max-width: 1320px) {
+	.center {
+		min-width: 100%;
+		margin: -4px;
+	}
+}
+
+@media(max-width: 414px) {
+	.container6 .gallery2 div {
+		width: 65%;
+		margin-bottom: 5vh;
+		margin-top: 0;
 	}
 }

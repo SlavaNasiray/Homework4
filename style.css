@@ -97,18 +97,19 @@ body{
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: center;
-	padding-top: 265px;
+	padding-top: 32vh;
 }
 .container1 .descr{
 	font-size: 20px;
 	font-family: 'Roboto Slab';
 	text-align: center;
 	color: #ffffff;
-	margin-top: 33px;
+	padding-top: 3vh;
 }
 .container1 .btn{
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 8vh;
+	font-size: 16px;
 }
 
 .container1 .btn a{
@@ -657,11 +658,36 @@ body{
 		width: 95%;
 	}
 }
-@media(max-height:800px){
-	.container1 h1{
-		padding-top: 32vh;
+
+@media(max-height: 1400px) {
+	.container1  h1 {
+		padding-top: 20vh;
 	}
-	.container1 .descr{
+	.container1 .descr {
+		padding-top: 3vh;
+	}
+	.container1 .btn {
+		margin-top: 7vh;
+	}
+}
+
+@media(max-height: 1100px) {
+	.container1  h1 {
+		padding-top: 25vh;
+	}
+	.container1 .descr {
+		padding-top: 3vh;
+	}
+	.container1 .btn {
+		margin-top: 7vh;
+	}
+}
+
+@media(max-height:800px) {
+	.container1 h1{
+		padding-top: 33vh;
+	}
+	.container1 .descr {
 		padding-top: 3vh;
 	}
 	.container1 .btn {
